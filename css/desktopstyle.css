@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 /*========Top Line=======*/
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -130,11 +130,11 @@ img {
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
-}
+} */
 
 /*==========hero image========*/
 
-.section-button-service {
+/* .section-button-service {
   background: #2e2f42;
   max-width: 1440px;
   margin-left: auto;
@@ -188,10 +188,10 @@ img {
 .button-service:focus {
   background: #404bbf;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
+} */
 
 /*===========Section 1=======*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -242,7 +242,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 
 /*==========Section 2=====*/
 
