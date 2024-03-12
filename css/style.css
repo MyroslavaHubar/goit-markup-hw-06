@@ -898,9 +898,12 @@ button {
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    max-width: 552px;
+    max-width: 584px;
     justify-content: start;
   }
 }
@@ -1092,3 +1095,5 @@ button {
 .footer-subscribe-btn:focus {
   background-color: #404bbf;
 }
+
+/*==========Modal windows======*/
