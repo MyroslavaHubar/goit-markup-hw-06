@@ -880,7 +880,7 @@ button {
   padding: 96px 0;
 }
 
-@media only screen and (max-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }
