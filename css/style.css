@@ -195,6 +195,10 @@ button {
     display: flex;
     gap: 40px;
   }
+
+  .header-address-item-first {
+    margin-bottom: 0;
+  }
 }
 
 .header-address-link {
@@ -426,7 +430,7 @@ button {
 
 @media only screen and (min-width: 1158px) {
   .section-button-service {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -617,7 +621,7 @@ button {
 /*==================Section 2=================*/
 
 .section-team {
-  padding: 96px 12px;
+  padding: 96px 0;
   background: #f4f4fd;
 }
 
@@ -646,6 +650,7 @@ button {
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;
+    max-width: 100%;
   }
 
   .section-team {
@@ -687,6 +692,9 @@ button {
 @media only screen and (min-width: 1158px) {
   .team-item {
     box-shadow: none;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
   }
 
   .team-item:hover,
@@ -1269,6 +1277,7 @@ button {
 @media only screen and (max-width: 767px) {
   .modal-form-checkbox-label {
     display: flex;
+    align-items: center;
   }
 }
 .modal-form-checkbox-label {
